@@ -9,6 +9,7 @@ specifiers:
   '@testing-library/react': ^11.2.7
   '@testing-library/user-event': ^12.8.3
   babel-plugin-import: ^1.13.3
+  date-fns: ^2.25.0
   gh-pages: ^3.2.3
   history: ^5.1.0
   react: ^17.0.2
@@ -24,6 +25,7 @@ dependencies:
   '@testing-library/jest-dom': 5.15.0
   '@testing-library/react': 11.2.7_react-dom@17.0.2+react@17.0.2
   '@testing-library/user-event': 12.8.3
+  date-fns: 2.25.0
   history: 5.1.0
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -4648,6 +4650,11 @@ packages:
       abab: 2.0.5
       whatwg-mimetype: 2.3.0
       whatwg-url: 8.7.0
+    dev: false
+
+  /date-fns/2.25.0:
+    resolution: {integrity: sha512-ovYRFnTrbGPD4nqaEqescPEv1mNwvt+UTqI3Ay9SzNtey9NZnYu6E2qCcBBgJ6/2VF1zGGygpyTDITqpQQ5e+w==}
+    engines: {node: '>=0.11'}
     dev: false
 
   /debug/2.6.9:
